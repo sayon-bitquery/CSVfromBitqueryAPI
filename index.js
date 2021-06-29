@@ -1,4 +1,3 @@
-const JSONTOCSV = require('json2csv').parse
 const FileSystem = require('fs')
 const { writeFile } = require('fs').promises;
 const fetch = require('node-fetch')
